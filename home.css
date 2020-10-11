@@ -80,7 +80,7 @@ ul {
 /* title img */
 .top {
   padding: 0px;
-  background-image: url('manipal2.jpg');
+  background-image: url('images/manipal2.jpg');
   opacity: 0.9;
   background-repeat: no-repeat;
   background-size: cover;
@@ -165,7 +165,7 @@ ul {
 }
 
 .card-outer {
-  background-image: url('bg-trial.jpeg');
+  background-image: url('images/bg-trial.jpeg');
   background-size: cover;
   /* margin: 5%; */
 }
@@ -282,11 +282,12 @@ ul {
   color: #fff;
 }
 
+/* FOOTER SECTION */
 /* up button */
-
-.arrow-btn-item{
+.arrow-btn-item {
   margin: 5%;
 }
+
 @import "compass/css3";
 @import url(https://fonts.googleapis.com/css?family=Lato:700);
 
@@ -296,7 +297,7 @@ ul {
   position: relative;
   margin: 5%;
   margin-top: 0;
-  margin-bottom:2%;
+  margin-bottom: 2%;
   display: inline-block;
   font-size: 20px;
   color: #fff;
@@ -387,7 +388,7 @@ ul {
   }
 }
 
-/* footer section */
+/* footer icons and text */
 .icon-footer {
   padding: 1% 2%;
   font-size: 1.5rem;
