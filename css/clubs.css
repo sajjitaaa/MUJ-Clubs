@@ -1,3 +1,6 @@
+html{
+  scroll-behavior: smooth;
+}
 body {
   font-family: 'Montserrat'sans-serif;
   text-align: center;
@@ -29,7 +32,7 @@ h3 {
 
 /* Title section */
 .title-section {
-  background-image: url(images/club-bg.png);
+  background-image: url(../images/club-bg.png);
   background-repeat: no-repeat;
   background-size: cover;
   width: 100%;
@@ -41,7 +44,7 @@ h3 {
 .navbar {
   align-items: flex-end;
   width: 100%;
-  position: absolute;
+  position: fixed;
   z-index: 2;
   background-color: rgba(26, 28, 32, 0.85);
 }
@@ -390,7 +393,8 @@ h3 {
   padding: 1% 2%;
   font-size: 1.5rem;
 }
-.icon-footer:hover{
+
+.icon-footer:hover {
   transform: scale(1.1);
 }
 
@@ -412,3 +416,4 @@ h3 {
   background-image: -ms-linear-gradient(top, #00818a, #07b061e5);
   background-image: -o-linear-gradient(top, #00818a, #07b061e5);
 }
+/* FOOTER END */
